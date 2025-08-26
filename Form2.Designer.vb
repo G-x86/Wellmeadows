@@ -289,7 +289,7 @@ Private Sub InitializeComponent()
     Me.txtDOB.Font = inputFont
     SetBox(Me.txtDOB)
 
-    ' Add to TLP
+    ' Add to TLPddd
     Dim r As Integer = 0
     tlpStaff.Controls.Add(NINLabel, 0, r) : tlpStaff.Controls.Add(Me.txtNIN, 1, r) : r += 1
     tlpStaff.Controls.Add(Staff_NumberLabel, 0, r) : tlpStaff.Controls.Add(Me.txtStaffNo, 1, r) : r += 1
