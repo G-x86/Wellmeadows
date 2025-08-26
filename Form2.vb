@@ -1,4 +1,4 @@
-﻿Imports System.Data.SqlClient
+Imports System.Data.SqlClient
 
 
 Public Class StaffForm
@@ -32,7 +32,7 @@ Public Class StaffForm
             cmd.Parameters.AddWithValue("@L_Name", txtLName.Text)
             cmd.Parameters.AddWithValue("@Address", txtAddress.Text)
             cmd.Parameters.AddWithValue("@Tel", txtTel.Text)
-            cmd.Parameters.AddWithValue("@DOB", txtDOB.Text)          ' ควรเป็น DateTime
+            cmd.Parameters.AddWithValue("@DOB", txtDOB.Text)          ' ควรเป็น DateTime filmthekiller
             cmd.Parameters.AddWithValue("@Sex", txtSex.Text)
             cmd.Parameters.AddWithValue("@Position", txtPosition.Text)
             cmd.Parameters.AddWithValue("@Salary", txtSalary.Text)
